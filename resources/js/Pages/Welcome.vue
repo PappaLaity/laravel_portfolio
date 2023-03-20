@@ -12,10 +12,10 @@ defineProps({
 
 <template>
     <Head title="Welcome" />
-    <HomeLayout>
-        <div class="w-full px-6 py-6 mx-auto loopple-min-height-78vh text-slate-500">
-            <div
-                class="relative flex flex-col flex-auto min-w-0 p-4 overflow-hidden break-words border-0 shadow-blur rounded-2xl bg-white/80 bg-clip-border mb-4">
+<HomeLayout>
+    <div class="w-full px-6 py-6 mx-auto loopple-min-height-78vh text-slate-500">
+        <div
+            class="relative flex flex-col flex-auto min-w-0 p-4 overflow-hidden break-words border-0 shadow-blur rounded-2xl bg-white/80 bg-clip-border mb-4">
                 <div class="flex flex-wrap -mx-3">
                     <div class="flex-none w-auto max-w-full px-2">
                         <div
@@ -24,16 +24,16 @@ defineProps({
                                 alt="profile_image" class="max-w-xs shadow-soft-sm rounded-xl">
                         </div>
                         <!-- <div>
-                            <h5 class="mb-1 mt-2 text-center">Pappa Laity</h5>
-                            <p class="mb-0 font-semibold leading-normal text-size-sm">Ingenieur Genie Logiciel / Gestion de
-                                Donnees</p>
-                        </div> -->
+                                <h5 class="mb-1 mt-2 text-center">Pappa Laity</h5>
+                                <p class="mb-0 font-semibold leading-normal text-size-sm">Ingenieur Genie Logiciel / Gestion de
+                                    Donnees</p>
+                            </div> -->
                     </div>
-                    <div class="flex-none w-auto max-w-full pl-24 py-2">
-                        <div
-                            class="max-w-none p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 h-full">
+                <div class="flex-none w-auto max-w-full pl-24 py-2">
+                    <div
+                        class="max-w-none p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 h-full">
 
-                            <h3 class="mb-2 pt-16 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">
+                        <h3 class="mb-2 pt-16 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">
                                 Hi! I'm Papa Laity Ndiaye
                             </h3>
                             <p class="mb-3 pt-12 font-normal text-gray-500 dark:text-gray-400">
@@ -42,15 +42,19 @@ defineProps({
                             </p>
                             <!-- <p class="pt-6">
 
-                                <a href="#" class="inline-flex items-center text-blue-600 hover:underline">
-                                    See our guideline
-                                </a>
-                            </p> -->
+                                    <a href="#" class="inline-flex items-center text-blue-600 hover:underline">
+                                        See our guideline
+                                    </a>
+                                </p> -->
                             <div class="grid grid-cols-6 gap-1 pt-6">
-                                <div class="bg-slate-400 h-16 w-16 rounded">01
+                                <div class="bg-slate-400 h-16 w-16 rounded">
+
+                                    <div class="py-4 flex justify-center items-center">
+                                        <i class="fas fa-edit text-yellow-300 px-2"></i>
+                                    </div>
                                     <!-- linkedin -->
                                 </div>
-                                <div class="bg-sky-500 h-16 w-16 rounded" >02
+                                <div class="bg-sky-500 h-16 w-16 rounded">02
                                     <!-- twitter -->
                                 </div>
                                 <div class="bg-slate-400 h-16 w-16 rounded">03
@@ -116,19 +120,19 @@ defineProps({
                                 </ul>
                                 <hr class="h-px my-6 bg-transparent bg-gradient-horizontal-light">
                                 <div class="grid grid-cols-4 gap-1">
-                                <div class="rounded center text-center">WEB
-                                    <!-- linkedin -->
+                                    <div class="rounded center text-center">WEB
+                                        <!-- linkedin -->
+                                    </div>
+                                    <div class="rounded center text-center">Mobile
+                                        <!-- linkedin -->
+                                    </div>
+                                    <div class="rounded center text-center">IoT
+                                        <!-- twitter -->
+                                    </div>
+                                    <div class="rounded center text-center">Research
+                                        <!-- github -->
+                                    </div>
                                 </div>
-                                <div class="rounded center text-center">Mobile
-                                    <!-- linkedin -->
-                                </div>
-                                <div class="rounded center text-center" >IoT
-                                    <!-- twitter -->
-                                </div>
-                                <div class="rounded center text-center">Research
-                                    <!-- github -->
-                                </div>
-                            </div>
                             </div>
                         </div>
                     </div>
@@ -279,14 +283,14 @@ defineProps({
                                             href="javascript:;">Reply</a>
                                     </li>
                                 </ul>
-                            </div>
                         </div>
-                    </div>
-
+                        </div>
                 </div>
 
             </div>
+
         </div>
+    </div>
 
 </HomeLayout>
 
@@ -300,7 +304,7 @@ defineProps({
                 >Dashboard</Link
             >
 
-                                                                                                                                                                                    <template v-else>
+                                                                                                                                                                                        <template v-else>
                 <Link :href="route('login')" class="text-sm text-gray-700 dark:text-gray-500 underline">Log in</Link>
 
                 <Link
@@ -444,17 +448,17 @@ defineProps({
                             stroke-width="2" viewBox="0 0 24 24" class="ml-4 -mt-px w-5 h-5 text-gray-400">
                             <path
                                 d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z">
-                                                                                                                                                                                            </path>
-                                                                                                                                                                                        </svg>
+                                                                                                                                                                                                </path>
+                                                                                                                                                                                            </svg>
 
-                                                                                                                                                                                        <a href="https://github.com/sponsors/taylorotwell" class="ml-1 underline"> Sponsor </a>
+                                                                                                                                                                                            <a href="https://github.com/sponsors/taylorotwell" class="ml-1 underline"> Sponsor </a>
+                                                                                                                                                                                        </div>
                                                                                                                                                                                     </div>
-                                                                                                                                                                                </div>
 
-                                                                                                                                                                                <div class="ml-4 text-center text-sm text-gray-500 sm:text-right sm:ml-0">
-                                                                                                                                                                                    Laravel v{{ laravelVersion }} (PHP v{{ phpVersion }})
-                                                                                                                                                                                </div>
-                                                                                                                                                                            </div> 
-                                                                                                                                                                    </div> -->
+                                                                                                                                                                                    <div class="ml-4 text-center text-sm text-gray-500 sm:text-right sm:ml-0">
+                                                                                                                                                                                        Laravel v{{ laravelVersion }} (PHP v{{ phpVersion }})
+                                                                                                                                                                                    </div>
+                                                                                                                                                                                </div> 
+                                                                                                                                                                        </div> -->
     <!-- </div> -->
 </template>
