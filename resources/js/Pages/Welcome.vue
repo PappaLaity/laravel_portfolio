@@ -12,16 +12,18 @@ defineProps({
 
 <template>
     <Head title="Welcome" />
-<HomeLayout>
-    <div class="w-full px-6 py-6 mx-auto loopple-min-height-78vh text-slate-500">
-        <div
-            class="relative flex flex-col flex-auto min-w-0 p-4 overflow-hidden break-words border-0 shadow-blur rounded-2xl bg-white/80 bg-clip-border mb-4">
+    <HomeLayout>
+        <div class="w-full px-6 py-6 mx-auto loopple-min-height-78vh text-slate-500">
+            <div
+                class="relative flex flex-col flex-auto min-w-0 p-4 overflow-hidden break-words border-0 shadow-blur rounded-2xl bg-white/80 bg-clip-border mb-4">
                 <div class="flex flex-wrap -mx-3">
                     <div class="flex-none w-auto max-w-full px-2">
                         <div
                             class="text-size-base ease-soft-in-out h-18.5 w-18.5 relative inline-flex items-center justify-center rounded-xl text-white transition-all duration-200">
-                            <img src="https://demos.creative-tim.com/soft-ui-dashboard-tailwind/assets/img/bruce-mars.jpg"
-                                alt="profile_image" class="max-w-xs shadow-soft-sm rounded-xl">
+                            <!-- <img src="https://demos.creative-tim.com/soft-ui-dashboard-tailwind/assets/img/bruce-mars.jpg"
+                                alt="profile_image" class="max-w-xs shadow-soft-sm rounded-xl"> -->
+                            <img src="https://avatars.githubusercontent.com/u/38842298?v=4" alt="profile_image"
+                                class="max-w-xs shadow-soft-sm rounded-xl">
                         </div>
                         <!-- <div>
                                 <h5 class="mb-1 mt-2 text-center">Pappa Laity</h5>
@@ -29,40 +31,38 @@ defineProps({
                                     Donnees</p>
                             </div> -->
                     </div>
-                <div class="flex-none w-auto max-w-full pl-24 py-2">
-                    <div
-                        class="max-w-none p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 h-full">
+                    <div class="flex-none w-auto max-w-full pl-24 py-2">
+                        <div
+                            class="max-w-none p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 h-full">
 
-                        <h3 class="mb-2 pt-16 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">
+                            <h3 class="mb-2 pt-16 text-2xl font-semibold tracking-tight text-gray-900 dark:text-white">
                                 Hi! I'm Papa Laity Ndiaye
                             </h3>
                             <p class="mb-3 pt-12 font-normal text-gray-500 dark:text-gray-400">
                                 Software and Data Management Engineer, Developper, Data Science Researcher, IoT
                                 Passionate...
                             </p>
-                            <!-- <p class="pt-6">
-
-                                    <a href="#" class="inline-flex items-center text-blue-600 hover:underline">
-                                        See our guideline
+                            <div class="grid grid-cols-10 gap-1 pt-6">
+                                <!-- <div class=""> -->
+                                <div class="bg-blue-600 h-16 w-16 flex justify-center items-center rounded">
+                                    <!-- LinkedIn -->
+                                    <a href="#">
+                                        <i class="fa-brands fa-linkedin-in text-white px-2 fa-2x"></i>
                                     </a>
-                                </p> -->
-                            <div class="grid grid-cols-6 gap-1 pt-6">
-                                <div class="bg-slate-400 h-16 w-16 rounded">
-
-                                    <div class="py-4 flex justify-center items-center">
-                                        <i class="fas fa-edit text-yellow-300 px-2"></i>
-                                    </div>
-                                    <!-- linkedin -->
                                 </div>
-                                <div class="bg-sky-500 h-16 w-16 rounded">02
-                                    <!-- twitter -->
-                                </div>
-                                <div class="bg-slate-400 h-16 w-16 rounded">03
+                                <div class="bg-black h-16 w-16 flex justify-center items-center rounded">
                                     <!-- github -->
+                                    <a href="#">
+                                        <i class="fa-brands fa-github text-white px-2 fa-2x"></i>
+                                    </a>
                                 </div>
-                                <div class="bg-sky-500 h-16 w-16 rounded">04
+                                <div class="bg-red-600 h-16 w-16 flex justify-center items-center rounded">
                                     <!-- gmail -->
+                                    <a href="#">
+                                        <i class="fas fa-envelope text-white px-2 fa-2x"></i>
+                                    </a>
                                 </div>
+                                <!-- </div> -->
                             </div>
                         </div>
 
@@ -283,20 +283,20 @@ defineProps({
                                             href="javascript:;">Reply</a>
                                     </li>
                                 </ul>
+                            </div>
                         </div>
-                        </div>
+                    </div>
+
                 </div>
 
             </div>
-
         </div>
-    </div>
 
-</HomeLayout>
+    </HomeLayout>
 
-<!-- <div
+    <!-- <div
         class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center sm:pt-0"> -->
-<!-- <div v-if="canLogin" class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
+    <!-- <div v-if="canLogin" class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
             <Link
                 v-if="$page.props.auth.user"
                 :href="route('dashboard')"
@@ -316,7 +316,7 @@ defineProps({
             </template>
         </div> -->
 
-<!-- <div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
+    <!-- <div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
             <div class="flex justify-center pt-8 sm:justify-start sm:pt-0">
                 <svg viewBox="0 0 651 192" fill="none" xmlns="http://www.w3.org/2000/svg"
                     class="h-16 w-auto text-gray-700 sm:h-20">

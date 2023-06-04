@@ -1,8 +1,6 @@
 <script setup>
 import { ref } from 'vue';
 import ApplicationLogo from '@/Components/ApplicationLogo.vue';
-import Dropdown from '@/Components/Dropdown.vue';
-import DropdownLink from '@/Components/DropdownLink.vue';
 import NavLink from '@/Components/NavLink.vue';
 import ResponsiveNavLink from '@/Components/ResponsiveNavLink.vue';
 import { Link } from '@inertiajs/vue3';
@@ -93,12 +91,12 @@ const showingNavigationDropdown = ref(false);
             </main>
         </div>
         <footer>
-            <div class="w-full px-6 mx-auto  text-center">
-                <div class="flex flex-wrap items-center -mx-3 lg:justify-between">
+            <div class="w-full h-10 px-6 mx-auto text-center py-3">
+                <div class="flex flex-wrap items-center -mx-3 lg:justify-center">
                     <div class="w-full max-w-full px-3 mt-0 mb-6 shrink-0 lg:mb-0 lg:w-1/2 lg:flex-none">
-                        <div class="leading-normal text-center text-size-sm text-slate-500 lg:text-left">
+                        <div class="leading-normal text-center text-size-sm text-slate-500 lg:text-center">
                             &copy; {{ new Date().getFullYear() }},
-                            made with <i class="fa fa-heart" aria-hidden="true"></i> by
+                            made with <i class="fas fa-heart-pulse" aria-hidden="true"></i> by
                             <a href="#" class="font-semibold text-slate-700" target="_blank">Pappa Laity</a>
                         </div>
                     </div>

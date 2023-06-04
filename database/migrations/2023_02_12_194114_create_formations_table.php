@@ -19,6 +19,7 @@ return new class extends Migration
             $table->string("libelle");
             $table->string("description");
             $table->string("diplome");
+            $table->string("ecole");
             $table->string("debut_formation");
             $table->string("fin_formation");
             $table->boolean("statut");

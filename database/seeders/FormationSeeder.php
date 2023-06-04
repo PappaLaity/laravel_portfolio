@@ -22,6 +22,7 @@ class FormationSeeder extends Seeder
             "diplome" => "MASTER",
             "debut_formation" => "2017",
             "fin_formation" => "2020",
+            "ecole" => "Universite Gaston Berger",
             "statut" => 1
         ));
     }

@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Requests\FormationRequest;
 use App\Models\Formation;
 use Illuminate\Http\Request;
 use Inertia\Inertia;
@@ -15,7 +16,10 @@ class FormationController extends Controller
      */
     public function index()
     {
-        return Inertia::render('Dashboard');
+        $formations = Formation::all();
+        return Inertia::render('Gestion/Formation/Index', [
+            'formations' => $formations
+        ]);
     }
 
     /**
@@ -25,7 +29,7 @@ class FormationController extends Controller
      */
     public function create()
     {
-        //
+        return Inertia::render('Gestion/Formation/Create');
     }
 
     /**
@@ -34,9 +38,24 @@ class FormationController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(FormationRequest $request)
     {
-        //
+        $request->validated();
+        $formation = Formation::create([
+            "nom" => $request->nom,
+            "libelle" => $request->libelle,
+            "diplome" => $request->diplome,
+            "ecole" => $request->ecole,
+            "description" => $request->description,
+            "debut_formation" => $request->debut_formation,
+            "fin_formation" => $request->fin_formation,
+            "statut" => $request->statut
+
+        ]);
+
+        if ($formation) {
+            return  redirect()->route('formation.index')->with("message", "Utilisateur cree avec succes");
+        }
     }
 
     /**
@@ -58,7 +77,9 @@ class FormationController extends Controller
      */
     public function edit(Formation $formation)
     {
-        //
+        return Inertia::render('Gestion/Formation/Edit', [
+            'formation' => $formation
+        ]);
     }
 
     /**
@@ -68,9 +89,11 @@ class FormationController extends Controller
      * @param  \App\Models\Formation  $formation
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Formation $formation)
+    public function update(FormationRequest $request, Formation $formation)
     {
-        //
+        // dd($user);
+        $formation->update($request->validated());
+        return redirect()->route('formation.index')->with("message", "Formation mis a jour avec succes");
     }
 
     /**

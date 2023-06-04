@@ -9,14 +9,26 @@ import { ZiggyVue } from "../../vendor/tightenco/ziggy/dist/vue.m";
 /* import the fontawesome core */
 import { library } from "@fortawesome/fontawesome-svg-core";
 
-import { faEye } from "@fortawesome/free-solid-svg-icons";
-import { faEdit } from "@fortawesome/free-solid-svg-icons";
-import { faArrowLeft } from "@fortawesome/free-solid-svg-icons";
-import { faUserSecret } from "@fortawesome/free-solid-svg-icons";
-import { faMessage } from "@fortawesome/free-solid-svg-icons";
-import { faTrashAlt } from "@fortawesome/free-solid-svg-icons";
-import { faUserPlus } from "@fortawesome/free-solid-svg-icons";
-
+import {
+    faUserPlus,
+    faEnvelope,
+    faTrashAlt,
+    faMessage,
+    faUserSecret,
+    faArrowLeft,
+    faEdit,
+    faEye,
+    faHeartPulse,
+    faPlus,
+    faList,
+    faGraduationCap
+} from "@fortawesome/free-solid-svg-icons";
+import {
+    faLinkedinIn,
+    faTwitter,
+    faGithub,
+} from "@fortawesome/free-brands-svg-icons";
+// import {} from @fortawesome/t
 /* add icons to the library */
 library.add(
     faEye,
@@ -25,7 +37,15 @@ library.add(
     faUserPlus,
     faUserSecret,
     faMessage,
-    faTrashAlt
+    faTrashAlt,
+    faTwitter,
+    faLinkedinIn,
+    faGithub,
+    faEnvelope,
+    faHeartPulse,
+    faPlus,
+    faList,
+    faGraduationCap
 );
 
 import { dom } from "@fortawesome/fontawesome-svg-core";
@@ -44,6 +64,7 @@ createInertiaApp({
         ),
     setup({ el, App, props, plugin }) {
         return createApp({ render: () => h(App, props) })
+            // .config.globalProperties.$route(route)
             .use(plugin)
             .use(ZiggyVue, Ziggy)
             .mount(el);
