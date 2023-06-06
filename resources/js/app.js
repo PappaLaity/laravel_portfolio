@@ -21,7 +21,11 @@ import {
     faHeartPulse,
     faPlus,
     faList,
-    faGraduationCap
+    faGraduationCap,
+    faBriefcase,
+    faBriefcaseClock,
+    faLightbulb,
+
 } from "@fortawesome/free-solid-svg-icons";
 import {
     faLinkedinIn,
@@ -45,7 +49,10 @@ library.add(
     faHeartPulse,
     faPlus,
     faList,
-    faGraduationCap
+    faGraduationCap,
+    faBriefcase,
+    faBriefcaseClock,
+    faLightbulb
 );
 
 import { dom } from "@fortawesome/fontawesome-svg-core";
