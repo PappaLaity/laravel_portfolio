@@ -25,12 +25,25 @@ import {
     faBriefcase,
     faBriefcaseClock,
     faLightbulb,
-
+    faScrewdriver,
+    faScrewdriverWrench,
 } from "@fortawesome/free-solid-svg-icons";
 import {
     faLinkedinIn,
     faTwitter,
     faGithub,
+    faFacebook,
+    faInstagram,
+    faPhp,
+    faPython,
+    faJs,
+    faJava,
+    faBootstrap,
+    faVuejs,
+    faLaravel,
+    faAngular,
+    faGitAlt,
+    faGitlab,
 } from "@fortawesome/free-brands-svg-icons";
 // import {} from @fortawesome/t
 /* add icons to the library */
@@ -52,7 +65,21 @@ library.add(
     faGraduationCap,
     faBriefcase,
     faBriefcaseClock,
-    faLightbulb
+    faLightbulb,
+    faFacebook,
+    faInstagram,
+    faScrewdriver,
+    faScrewdriverWrench,
+    faPhp,
+    faPython,
+    faJs,
+    faJava,
+    faBootstrap,
+    faVuejs,
+    faLaravel,
+    faAngular,
+    faGitAlt,
+    faGitlab
 );
 
 import { dom } from "@fortawesome/fontawesome-svg-core";
@@ -70,11 +97,13 @@ createInertiaApp({
             import.meta.glob("./Pages/**/*.vue")
         ),
     setup({ el, App, props, plugin }) {
-        return createApp({ render: () => h(App, props) })
-            // .config.globalProperties.$route(route)
-            .use(plugin)
-            .use(ZiggyVue, Ziggy)
-            .mount(el);
+        return (
+            createApp({ render: () => h(App, props) })
+                // .config.globalProperties.$route(route)
+                .use(plugin)
+                .use(ZiggyVue, Ziggy)
+                .mount(el)
+        );
     },
     progress: {
         color: "#4B5563",

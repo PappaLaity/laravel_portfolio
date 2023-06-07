@@ -31,7 +31,7 @@ defineProps({
                                     Donnees</p>
                             </div> -->
                     </div>
-                    <div class="flex-none w-auto max-w-full pl-24 py-2">
+                    <div class="flex-none w-auto max-w-full py-2">
                         <div
                             class="max-w-none p-6 bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 h-full">
 
@@ -77,29 +77,31 @@ defineProps({
                         <div
                             class="relative flex flex-col h-full min-w-0 break-words bg-white border-0 shadow-soft-xl rounded-2xl bg-clip-border">
                             <div class="p-4 pb-0 mb-0 bg-white border-b-0 rounded-t-2xl">
-                                <h6 class="mb-0">Myself & Services</h6>
+                                <h6 class="mb-0">
+                                    <i class="fas fa-lightbulb text-yellow-400 fa-xl px-2"></i>
+                                    Myself & Services
+                                </h6>
                             </div>
                             <div class="flex-auto p-4">
-                                <p class="leading-normal text-size-sm">Hi, I’m Alec Thompson, Decisions: If you can’t
-                                    decide, the answer is no. If two equally difficult paths, choose the one more painful in
-                                    the short term (pain avoidance is creating an illusion of equality).</p>
+                                <p class="leading-normal text-size-sm">Hello, Je suis Papa Laity Ndiaye! Je suis Ingenieur
+                                    en Genie Logiciel et Gestion de Données</p>
                                 <hr class="h-px my-6 bg-transparent bg-gradient-horizontal-light">
                                 <ul class="flex flex-col pl-0 mb-0 rounded-lg">
                                     <li
                                         class="relative block px-4 py-2 pt-0 pl-0 leading-normal bg-white border-0 rounded-t-lg text-size-sm text-inherit">
-                                        <strong class="text-slate-700">Full Name:</strong> &nbsp; Alec M. Thompson
+                                        <strong class="text-slate-700">Nom:</strong> &nbsp; Papa Laity NDIAYE
                                     </li>
                                     <li
                                         class="relative block px-4 py-2 pl-0 leading-normal bg-white border-0 border-t-0 text-size-sm text-inherit">
-                                        <strong class="text-slate-700">Mobile:</strong> &nbsp; (44) 123 1234 123
+                                        <strong class="text-slate-700">Mobile:</strong> &nbsp; (+221) 77 491 97 31
                                     </li>
                                     <li
                                         class="relative block px-4 py-2 pl-0 leading-normal bg-white border-0 border-t-0 text-size-sm text-inherit">
-                                        <strong class="text-slate-700">Email:</strong> &nbsp; alecthompson@mail.com
+                                        <strong class="text-slate-700">Email:</strong> &nbsp; pappalaity@mail.com
                                     </li>
                                     <li
                                         class="relative block px-4 py-2 pl-0 leading-normal bg-white border-0 border-t-0 text-size-sm text-inherit">
-                                        <strong class="text-slate-700">Location:</strong> &nbsp; USA
+                                        <strong class="text-slate-700">Location:</strong> &nbsp; SENEGAL
                                     </li>
                                     <li
                                         class="relative block px-4 py-2 pb-0 pl-0 bg-white border-0 border-t-0 rounded-b-lg text-inherit">
@@ -114,25 +116,21 @@ defineProps({
                                         </a>
                                         <a class="inline-block py-0 pl-1 pr-2 mb-0 font-bold text-center align-middle transition-all bg-transparent border-0 rounded-lg shadow-none cursor-pointer leading-pro text-size-xs ease-soft-in bg-none text-sky-900"
                                             href="javascript:;">
-                                            <i class="fab fa-instagram fa-lg" aria-hidden="true"></i>
+                                            <i class="fab fa-instagram text-red-500 fa-lg" aria-hidden="true"></i>
                                         </a>
                                     </li>
                                 </ul>
-                                <hr class="h-px my-6 bg-transparent bg-gradient-horizontal-light">
+                                <!-- <hr class="h-px my-6 bg-transparent bg-gradient-horizontal-light">
                                 <div class="grid grid-cols-4 gap-1">
                                     <div class="rounded center text-center">WEB
-                                        <!-- linkedin -->
                                     </div>
                                     <div class="rounded center text-center">Mobile
-                                        <!-- linkedin -->
                                     </div>
                                     <div class="rounded center text-center">IoT
-                                        <!-- twitter -->
                                     </div>
                                     <div class="rounded center text-center">Research
-                                        <!-- github -->
                                     </div>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                     </div>
@@ -145,62 +143,95 @@ defineProps({
                                         <h6 class="mb-0">Technologies</h6>
                                     </div>
                                     <div class="w-full max-w-full px-3 text-right shrink-0 md:w-4/12 md:flex-none">
-                                        <a href="javascript:;" data-target="tooltip_trigger" data-placement="top">
-                                            <i class="leading-normal fas fa-user-edit text-size-sm text-slate-400"
-                                                aria-hidden="true"></i>
-                                        </a>
-                                        <div data-target="tooltip"
-                                            class="px-2 py-1 text-center text-white bg-black rounded-lg text-size-sm hidden"
-                                            role="tooltip" data-popper-placement="top"
-                                            style="position: absolute; inset: auto auto 0px 0px; margin: 0px; transform: translate3d(869.5px, -417.5px, 0px);">
-                                            Edit Profile
-                                            <div class="invisible absolute h-2 w-2 bg-inherit before:visible before:absolute before:h-2 before:w-2 before:rotate-45 before:bg-inherit before:content-['']"
-                                                data-popper-arrow=""
-                                                style="position: absolute; left: 0px; transform: translate3d(0px, 0px, 0px);">
-                                            </div>
-                                        </div>
+                                        <!-- <a href="javascript:;" data-target="tooltip_trigger" data-placement="top"> -->
+                                        <i class="leading-normal fas fa-screwdriver-wrench fa-xl text-size-sm text-slate-400"
+                                            aria-hidden="true"></i>
+                                        <!-- </a> -->
                                     </div>
                                 </div>
                             </div>
                             <div class="flex-auto p-4">
-                                <p class="leading-normal text-size-sm">Hi, I’m Alec Thompson, Decisions: If you can’t
-                                    decide, the answer is no. If two equally difficult paths, choose the one more painful in
-                                    the short term (pain avoidance is creating an illusion of equality).</p>
-                                <hr class="h-px my-6 bg-transparent bg-gradient-horizontal-light">
-                                <ul class="flex flex-col pl-0 mb-0 rounded-lg">
-                                    <li
-                                        class="relative block px-4 py-2 pt-0 pl-0 leading-normal bg-white border-0 rounded-t-lg text-size-sm text-inherit">
-                                        <strong class="text-slate-700">Full Name:</strong> &nbsp; Alec M. Thompson
-                                    </li>
-                                    <li
-                                        class="relative block px-4 py-2 pl-0 leading-normal bg-white border-0 border-t-0 text-size-sm text-inherit">
-                                        <strong class="text-slate-700">Mobile:</strong> &nbsp; (44) 123 1234 123
-                                    </li>
-                                    <li
-                                        class="relative block px-4 py-2 pl-0 leading-normal bg-white border-0 border-t-0 text-size-sm text-inherit">
-                                        <strong class="text-slate-700">Email:</strong> &nbsp; alecthompson@mail.com
-                                    </li>
-                                    <li
-                                        class="relative block px-4 py-2 pl-0 leading-normal bg-white border-0 border-t-0 text-size-sm text-inherit">
-                                        <strong class="text-slate-700">Location:</strong> &nbsp; USA
-                                    </li>
-                                    <li
-                                        class="relative block px-4 py-2 pb-0 pl-0 bg-white border-0 border-t-0 rounded-b-lg text-inherit">
-                                        <strong class="leading-normal text-size-sm text-slate-700">Social:</strong> &nbsp;
-                                        <a class="inline-block py-0 pl-1 pr-2 mb-0 font-bold text-center text-blue-800 align-middle transition-all bg-transparent border-0 rounded-lg shadow-none cursor-pointer leading-pro text-size-xs ease-soft-in bg-none"
-                                            href="javascript:;">
-                                            <i class="fab fa-facebook fa-lg" aria-hidden="true"></i>
+                                <hr class="h-px bg-transparent bg-gradient-horizontal-light">
+                                <div>
+                                    <div>
+                                        Langages
+                                    </div>
+                                    <div class="grid grid-cols-6 gap-2 mt-2 h-12">
+                                        <div class="bg-violet-600  flex justify-center items-center rounded" title="Php">
+                                            <!-- <a href="#"> -->
+                                            <i class="fa-brands fa-php fa-xl text-white"></i>
+                                            <!-- </a> -->
+                                        </div>
+                                        <div class="bg-black  flex justify-center items-center rounded" title="Javascript">
+                                            <!-- <a href="#"> -->
+                                            <i class="fa-brands fa-js fa-2x text-yellow-400"></i>
+                                            <!-- </a> -->
+                                        </div>
+                                        <div class="bg-sky-700  flex justify-center items-center rounded" title="Python">
+                                            <!-- <a href="#"> -->
+                                            <i class="fa-brands fa-python fa-xl text-yellow-300"></i>
+                                            <!-- </a> -->
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="mt-2">
+                                    Front End
+                                </div>
+                                <div class="grid grid-cols-6 gap-2 mt-2 h-12">
+                                    <div class="bg-sky-900  flex justify-center items-center rounded" title="Vue 3">
+                                        <!-- <a href="#"> -->
+                                        <i class="fa-brands fa-vuejs fa-2x text-green-400"></i>
+                                        <!-- </a> -->
+                                    </div>
+                                    <div class="bg-white  flex justify-center items-center rounded" title="Angular">
+                                        <!-- <a href="#"> -->
+                                        <i class="fa-brands fa-angular fa-2x text-red-600"></i>
+                                        <!-- </a> -->
+                                    </div>
+                                    <div class="bg-sky-100  flex justify-center items-center rounded" title="Flutter">
+                                        <img width="30" height="30" src="https://img.icons8.com/color/30/flutter.png"
+                                            alt="flutter" />
+                                    </div>
+                                    <div class="bg-violet-600  flex justify-center items-center rounded" title="Bootstrap">
+                                        <!-- <a href="#"> -->
+                                        <i class="fa-brands fa-bootstrap fa-2x text-white"></i>
+                                        <!-- </a> -->
+                                    </div>
+
+                                </div>
+                                <div class="mt-2">
+                                    Back End
+                                </div>
+                                <div class="grid grid-cols-6 gap-2 mt-2 h-12">
+                                    <div class="bg-red-600  flex justify-center items-center rounded" title="Laravel">
+                                        <i class="fa-brands fa-laravel fa-2x text-white"></i>
+                                    </div>
+                                    <!-- <div class="bg-black  flex justify-center items-center rounded">
+                                        <a href="#">
+                                            <i class="fa-brands fa-github text-white"></i>
                                         </a>
-                                        <a class="inline-block py-0 pl-1 pr-2 mb-0 font-bold text-center align-middle transition-all bg-transparent border-0 rounded-lg shadow-none cursor-pointer leading-pro text-size-xs ease-soft-in bg-none text-sky-600"
-                                            href="javascript:;">
-                                            <i class="fab fa-twitter fa-lg" aria-hidden="true"></i>
+                                    </div>
+                                    <div class="bg-red-600  flex justify-center items-center rounded">
+                                        <a href="#">
+                                            <i class="fas fa-envelope text-white"></i>
                                         </a>
-                                        <a class="inline-block py-0 pl-1 pr-2 mb-0 font-bold text-center align-middle transition-all bg-transparent border-0 rounded-lg shadow-none cursor-pointer leading-pro text-size-xs ease-soft-in bg-none text-sky-900"
-                                            href="javascript:;">
-                                            <i class="fab fa-instagram fa-lg" aria-hidden="true"></i>
-                                        </a>
-                                    </li>
-                                </ul>
+                                    </div> -->
+                                </div>
+                                <div class="mt-2">
+                                    Outils
+                                </div>
+                                <div class="grid grid-cols-6 gap-2 mt-2 h-12">
+                                    <div class="bg-orange-600  flex justify-center items-center rounded" title="git">
+                                        <i class="fa-brands fa-git-alt fa-2x text-white"></i>
+                                    </div>
+                                    <div class="bg-white  flex justify-center items-center rounded" title="Gitlab">
+                                        <i class="fa-brands fa-gitlab fa-2x text-orange-600"></i>
+                                    </div>
+                                    <div class="bg-blue-300  flex justify-center items-center rounded" title="Vscode">
+                                        <img width="32" height="32"
+                                            src="https://img.icons8.com/windows/32/visual-studio.png" alt="visual-studio" />
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -208,7 +239,7 @@ defineProps({
                         <div
                             class="relative flex flex-col h-full min-w-0 break-words bg-white border-0 shadow-soft-xl rounded-2xl bg-clip-border">
                             <div class="p-4 pb-0 mb-0 bg-white border-b-0 rounded-t-2xl">
-                                <h6 class="mb-0">skills</h6>
+                                <h6 class="mb-0">Services</h6>
                             </div>
                             <div class="flex-auto p-4">
                                 <ul class="flex flex-col pl-0 mb-0 rounded-lg">
